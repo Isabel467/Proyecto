@@ -1,0 +1,3211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.07.11" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1280" display_aspect_den="720" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:13:51.867">
+    <property name="length">00:13:51.900</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:13:51.867"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Intro.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-09T11:40:47</property>
+    <property name="shotcut:caption">Intro.jpg</property>
+    <property name="shotcut:hash">285b90b840c33246d85d2a8a8466c148</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:05.967">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:02.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:03.000</property>
+    </filter>
+    <filter id="filter1" out="00:00:05.967">
+      <property name="start">1</property>
+      <property name="level">00:00:05.000=1;00:00:05.967=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/001.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T08:53:54</property>
+    <property name="shotcut:caption">001.jpg</property>
+    <property name="shotcut:hash">c2579267009d8bd7b45b842769d76f27</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:21.600">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:02.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:03.000</property>
+    </filter>
+    <filter id="filter3" out="00:00:21.600">
+      <property name="start">1</property>
+      <property name="level">00:00:20.633=1;00:00:21.600=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/002.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:01:01</property>
+    <property name="shotcut:caption">002.jpg</property>
+    <property name="shotcut:hash">110c3228c4ec70e059648611be36f234</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:03.200">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter5" out="00:00:03.200">
+      <property name="start">1</property>
+      <property name="level">00:00:02.233=1;00:00:03.200=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/003.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:08:43</property>
+    <property name="shotcut:caption">003.jpg</property>
+    <property name="shotcut:hash">f40f30cd0071f9af6839f9e49d52d0f5</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" out="00:00:15.233">
+      <property name="start">1</property>
+      <property name="level">00:00:14.267=1;00:00:15.233=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+    <filter id="filter7" out="00:00:15.233">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.967=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/004.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:14:33</property>
+    <property name="shotcut:caption">004.jpg</property>
+    <property name="shotcut:hash">2ae7d924af61f66bea4b5bed9ba00fd3</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter8" out="00:00:15.967">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter9" out="00:00:15.967">
+      <property name="start">1</property>
+      <property name="level">00:00:15.000=1;00:00:15.967=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/005.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:20:26</property>
+    <property name="shotcut:caption">005.jpg</property>
+    <property name="shotcut:hash">8de075e6aa64eef82a7a2324f57cae40</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter10" out="00:00:09.733">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter11" out="00:00:09.733">
+      <property name="start">1</property>
+      <property name="level">00:00:08.767=1;00:00:09.733=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/006.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:33:05</property>
+    <property name="shotcut:caption">006.jpg</property>
+    <property name="shotcut:hash">e7280487a0fd1c62e6afd5ae7100671b</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter12" out="00:00:27.167">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter13" out="00:00:27.167">
+      <property name="start">1</property>
+      <property name="level">00:00:26.200=1;00:00:27.167=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/007.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:41:00</property>
+    <property name="shotcut:caption">007.jpg</property>
+    <property name="shotcut:hash">51996656016c961c41d3abc0ea2e7124</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter14" out="00:00:15.933">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter15" out="00:00:15.933">
+      <property name="start">1</property>
+      <property name="level">00:00:14.967=1;00:00:15.933=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/008.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T09:44:57</property>
+    <property name="shotcut:caption">008.jpg</property>
+    <property name="shotcut:hash">3842e844ed01a370b16c9fa4ef88ac82</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter16" out="00:00:18.600">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter17" out="00:00:18.600">
+      <property name="start">1</property>
+      <property name="level">00:00:17.633=1;00:00:18.600=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/009.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:06:52</property>
+    <property name="shotcut:caption">009.jpg</property>
+    <property name="shotcut:hash">736c75d846fa2419cc80f9d1e3fefe61</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter18" out="00:00:17.667">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter19" out="00:00:17.667">
+      <property name="start">1</property>
+      <property name="level">00:00:16.700=1;00:00:17.667=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/010.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:11:50</property>
+    <property name="shotcut:caption">010.jpg</property>
+    <property name="shotcut:hash">bff5bcdc6ebb01e0b859a142f79dba52</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter20" out="00:00:18.167">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter21" out="00:00:18.167">
+      <property name="start">1</property>
+      <property name="level">00:00:17.200=1;00:00:18.167=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/011.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:17:56</property>
+    <property name="shotcut:caption">011.jpg</property>
+    <property name="shotcut:hash">e18f274ae4fc07f69e021f08bc054e42</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter22" out="00:00:23.100">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter23" out="00:00:23.100">
+      <property name="start">1</property>
+      <property name="level">00:00:22.133=1;00:00:23.100=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/012.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:24:00</property>
+    <property name="shotcut:caption">012.jpg</property>
+    <property name="shotcut:hash">0bf4dd332f6c64a7afee832ffe6a0615</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter24" out="00:00:11.467">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter25" out="00:00:11.467">
+      <property name="start">1</property>
+      <property name="level">00:00:10.500=1;00:00:11.467=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/013.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:25:24</property>
+    <property name="shotcut:caption">013.jpg</property>
+    <property name="shotcut:hash">3897e467f996c835ab85e39bae40b50e</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter26" out="00:00:04.867">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter27" out="00:00:04.867">
+      <property name="start">1</property>
+      <property name="level">00:00:03.900=1;00:00:04.867=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/014.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:26:41</property>
+    <property name="shotcut:caption">014.jpg</property>
+    <property name="shotcut:hash">824061f72b3c30a9ad65d6fef66dd7bb</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter28" out="00:00:06.100">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter29" out="00:00:06.100">
+      <property name="start">1</property>
+      <property name="level">00:00:05.133=1;00:00:06.100=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/015.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:31:52</property>
+    <property name="shotcut:caption">015.jpg</property>
+    <property name="shotcut:hash">e6f482abce1a11e4522294a18fd80af3</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter30" out="00:00:07.167">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter31" out="00:00:07.800">
+      <property name="start">1</property>
+      <property name="level">00:00:06.833=1;00:00:07.800=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/016.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:42:54</property>
+    <property name="shotcut:caption">016.jpg</property>
+    <property name="shotcut:hash">97ebbb262d4f4e6199e0b7fe7060661f</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter32" out="00:00:27.433">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter33" out="00:00:27.433">
+      <property name="start">1</property>
+      <property name="level">00:00:26.467=1;00:00:27.433=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/017.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:49:03</property>
+    <property name="shotcut:caption">017.jpg</property>
+    <property name="shotcut:hash">1207e1381126c17e822b41f0713dfb45</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter34" out="00:00:22.567">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter35" out="00:00:22.567">
+      <property name="start">1</property>
+      <property name="level">00:00:21.600=1;00:00:22.567=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/018.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:52:32</property>
+    <property name="shotcut:caption">018.jpg</property>
+    <property name="shotcut:hash">f1d107ff67798bcefcfd4b0aa491b6db</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter36" out="00:00:15.200">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter37" out="00:00:15.200">
+      <property name="start">1</property>
+      <property name="level">00:00:14.233=1;00:00:15.200=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/019.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T10:57:03</property>
+    <property name="shotcut:caption">019.jpg</property>
+    <property name="shotcut:hash">ed2bc378aefd1b7ae4ed94332a5b099d</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter38" out="00:00:14.667">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter39" out="00:00:14.667">
+      <property name="start">1</property>
+      <property name="level">00:00:13.700=1;00:00:14.667=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/020.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T11:04:42</property>
+    <property name="shotcut:caption">020.jpg</property>
+    <property name="shotcut:hash">749ec81bcd8290dda50acc4a62bfc6b0</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter40" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter41" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">00:00:03.033=1;00:00:04.000=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/021.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T11:07:29</property>
+    <property name="shotcut:caption">021.jpg</property>
+    <property name="shotcut:hash">cc23e47bcf8a164d802eb4002787dd96</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter42" out="00:00:33.733">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter43" out="00:00:33.733">
+      <property name="start">1</property>
+      <property name="level">00:00:32.767=1;00:00:33.733=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/022.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-10T11:12:45</property>
+    <property name="shotcut:caption">022.jpg</property>
+    <property name="shotcut:hash">f921a4c973231e567b8ce4dcb40ac690</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter44" out="00:00:34.100">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter45" out="00:00:34.100">
+      <property name="start">1</property>
+      <property name="level">00:00:33.133=1;00:00:34.100=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/023.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T07:44:31</property>
+    <property name="shotcut:caption">023.jpg</property>
+    <property name="shotcut:hash">5e4c074f47738497420e721cf6f035a0</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter46" out="00:00:20.800">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter47" out="00:00:20.800">
+      <property name="start">1</property>
+      <property name="level">00:00:19.833=1;00:00:20.800=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="00:00:43.500">
+    <property name="length">00:00:43.533</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/2020-08-11 02-32-06.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T08:32:55</property>
+    <property name="shotcut:hash">357df22e560a7c26bcffc8aaec3f8e02</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2020-08-11 02-32-06.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter48" out="00:00:35.600">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter49" out="00:00:35.600">
+      <property name="start">1</property>
+      <property name="level">00:00:34.633=1;00:00:35.600=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="00:00:25.467">
+    <property name="length">00:00:25.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/Captura 001.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T08:41:55</property>
+    <property name="shotcut:hash">24b2b345d4b78a2fd04fd15a0f3ac0be</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Captura 001.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter50" out="00:00:20.333">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter51" out="00:00:20.333">
+      <property name="start">1</property>
+      <property name="level">00:00:19.367=1;00:00:20.333=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="00:01:44.967">
+    <property name="length">00:01:45.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/Captura 002.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T08:48:42</property>
+    <property name="shotcut:hash">9f1c36046dd3e21c119ce9725093beab</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Captura 002.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter52" out="00:01:39.867">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter53" out="00:01:39.867">
+      <property name="start">1</property>
+      <property name="level">00:01:38.900=1;00:01:39.867=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="00:01:00.900">
+    <property name="length">00:01:00.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/Captura 003.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T08:59:04</property>
+    <property name="shotcut:hash">6218533f2d1d8be34efb36835f1c035b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Captura 003.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter54" out="00:00:57.633">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter55" out="00:00:57.633">
+      <property name="start">1</property>
+      <property name="level">00:00:56.667=1;00:00:57.633=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="00:01:39.267">
+    <property name="length">00:01:39.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/Captura 005.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T11:25:16</property>
+    <property name="shotcut:hash">f251dfa8f4f5f241c5262b53e8274df6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Captura 005.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter56" in="00:00:02.500" out="00:01:35.767">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter57" in="00:00:02.500" out="00:01:35.767">
+      <property name="start">1</property>
+      <property name="level">00:01:32.300=1;00:01:33.267=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer29" in="00:00:00.000" out="00:01:26.000">
+    <property name="length">00:01:26.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/Captura 006.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T11:27:28</property>
+    <property name="shotcut:hash">bd890036a8df72e46152e436c3f72f3a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Captura 006.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter58" in="00:00:01.967" out="00:00:59.733">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer30" in="00:00:00.000" out="00:01:26.000">
+    <property name="length">00:01:26.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Videos/videos que si uso/Captura 006.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-08-11T11:27:28</property>
+    <property name="shotcut:hash">bd890036a8df72e46152e436c3f72f3a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Captura 006.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter59" in="00:01:03.167" out="00:01:26.000">
+      <property name="start">1</property>
+      <property name="level">00:00:21.867=1;00:00:22.833=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/024.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T12:26:51</property>
+    <property name="shotcut:caption">024.jpg</property>
+    <property name="shotcut:hash">7dbb99c50bf3ed3b3528d955320ee6f4</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter60" out="00:00:18.700">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter61" out="00:00:18.700">
+      <property name="start">1</property>
+      <property name="level">00:00:17.733=1;00:00:18.700=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/025.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T12:34:46</property>
+    <property name="shotcut:caption">025.jpg</property>
+    <property name="shotcut:hash">02d78255423b7ca48e4d90bcbf7c06ef</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter62" out="00:00:12.900">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter63" out="00:00:12.900">
+      <property name="start">1</property>
+      <property name="level">00:00:11.933=1;00:00:12.900=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/027.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T12:47:56</property>
+    <property name="shotcut:caption">027.jpg</property>
+    <property name="shotcut:hash">85c534ea9642102309365b980ad9b535</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter64" out="00:00:05.967">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter65" out="00:00:05.967">
+      <property name="start">1</property>
+      <property name="level">00:00:05.000=1;00:00:05.967=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/028.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T12:55:53</property>
+    <property name="shotcut:caption">028.jpg</property>
+    <property name="shotcut:hash">72d08ab2b722258f0a2553dd42997117</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/029.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T12:56:59</property>
+    <property name="shotcut:caption">029.jpg</property>
+    <property name="shotcut:hash">acbd1fa8b200c8eb62df39b2132456e5</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer36" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/030.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T12:58:08</property>
+    <property name="shotcut:caption">030.jpg</property>
+    <property name="shotcut:hash">202a2cb697b526dda750357881203f44</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer37" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Textos/031.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-11T13:04:51</property>
+    <property name="shotcut:caption">031.jpg</property>
+    <property name="shotcut:hash">2aab46f93d493291e4cbad757ac5bcc4</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter66" out="00:00:02.967">
+      <property name="start">1</property>
+      <property name="level">00:00:02.000=1;00:00:02.967=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:05.967"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:21.600"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:03.200"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:15.233"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:15.967"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:09.733"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:27.167"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:15.933"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:18.600"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:17.667"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:18.167"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:23.100"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:11.467"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:04.867"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:05.467"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:07.167"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:27.433"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:22.567"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:15.200"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:14.667"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:04.000"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:33.733"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:34.100"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:20.800"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:35.600"/>
+    <blank length="00:00:00.033"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:20.333"/>
+    <blank length="00:00:00.033"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:01:39.867"/>
+    <blank length="00:00:00.033"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:57.633"/>
+    <entry producer="producer28" in="00:00:02.500" out="00:01:35.767"/>
+    <entry producer="producer29" in="00:00:01.967" out="00:00:59.733"/>
+    <entry producer="producer30" in="00:01:03.167" out="00:01:26.000"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:18.700"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:12.900"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:05.967"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:02.967"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:02.967"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:02.967"/>
+    <entry producer="producer37" in="00:00:00.000" out="00:00:02.967"/>
+  </playlist>
+  <producer id="producer38" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+  </producer>
+  <producer id="producer39" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter67" in="00:00:06.000" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer40" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter68" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer41" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter69" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer42" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter70" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer43" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter71" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer44" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter72" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer45" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter73" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer46" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter74" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer47" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter75" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer48" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter76" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer49" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter77" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer50" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter78" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer51" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter79" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer52" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter80" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer53" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter81" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer54" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter82" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer55" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter83" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer56" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter84" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer57" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter85" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer58" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter86" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer59" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter87" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer60" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter88" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer61" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter89" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer62" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter90" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer63" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter91" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer64" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter92" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer65" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter93" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer66" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter94" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer67" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter95" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer68" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter96" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer69" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter97" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer70" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter98" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer71" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter99" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer72" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter100" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer73" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter101" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer74" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter102" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer75" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter103" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer76" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter104" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer77" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter105" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer78" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter106" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer79" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter107" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer80" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter108" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer81" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter109" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer82" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter110" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer83" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter111" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer84" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter112" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer85" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter113" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer86" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter114" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer87" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter115" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer88" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter116" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer89" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter117" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer90" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter118" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer91" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter119" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer92" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter120" out="00:00:14.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer93" in="00:00:00.000" out="00:01:46.000">
+    <property name="length">00:01:46.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Hadickson/Documents/3 periodo clases/Sistemas 1/Programas descargados/Tarea 3 grupal/indicadores/New Horizons - Futuremono.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-09T10:23:20</property>
+    <property name="shotcut:hash">10fa7a0aa10cf6dd92efe8e4da4fae30</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">New Horizons - Futuremono.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="video_delay">0</property>
+    <filter id="filter121" out="00:00:03.767">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer38" in="00:00:00.000" out="00:00:05.967"/>
+    <entry producer="producer39" in="00:00:06.000" out="00:00:14.967"/>
+    <entry producer="producer40" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer41" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer42" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer43" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer44" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer45" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer46" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer47" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer49" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer50" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer51" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer52" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer53" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer54" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer55" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer56" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer57" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer58" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer59" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer60" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer61" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer62" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer63" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer64" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer65" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer66" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer67" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer68" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer69" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer70" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer71" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer72" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer73" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer74" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer75" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer76" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer77" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer78" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer79" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer80" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer81" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer82" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer83" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer84" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer85" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer86" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer87" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer88" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer89" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer90" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer91" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer92" in="00:00:00.000" out="00:00:14.967"/>
+    <entry producer="producer93" in="00:00:00.000" out="00:00:03.767"/>
+  </playlist>
+  <producer id="producer94" in="00:00:00.000" out="00:00:21.600">
+    <property name="length">00:00:21.633</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/001 presentacion.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">2abca900d10eac95c6f8477922451b9f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">001 presentacion.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer95" in="00:00:00.000" out="00:00:44.233">
+    <property name="length">00:00:44.267</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/002 que es un sistema operativo.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">c694e4196423102862f1bc1a8ca7ec4c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">002 que es un sistema operativo.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer96" in="00:00:00.000" out="00:01:01.767">
+    <property name="length">00:01:01.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/005 Definicion.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">69adaa4334b8a28a3988673a11da2c31</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">005 Definicion.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer97" in="00:00:00.000" out="00:00:59.000">
+    <property name="length">00:00:59.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/007 sub_ ramas.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">b6134aea4fd0eed6c7cd0940c24c8c9c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">007 sub_ ramas.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer98" in="00:00:00.000" out="00:00:29.067">
+    <property name="length">00:00:29.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/003 objetivos.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">2ba45fe25b977404efcda78991cc708d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">003 objetivos.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer99" in="00:00:00.000" out="00:01:19.967">
+    <property name="length">00:01:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/004 usos.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">18f3d85e8fed10c34b96819cd33c2c6f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">004 usos.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer100" in="00:00:00.000" out="00:01:11.900">
+    <property name="length">00:01:11.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios compañera/006 difiicultades.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">be2becc6de2f4b95d5f8e65271566b00</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">006 difiicultades.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer101" in="00:00:00.000" out="00:00:20.800">
+    <property name="length">00:00:20.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 001.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T07:26:06</property>
+    <property name="shotcut:hash">dfb26f859812ebcf7a16dece677f084d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 001.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter122" out="00:00:20.800">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer102" in="00:00:00.000" out="00:00:35.633">
+    <property name="length">00:00:35.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 002.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T08:05:22</property>
+    <property name="shotcut:hash">79f48b74ae73f89767ba53ecd736623d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 002.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter123" out="00:00:35.633">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer103" in="00:00:00.000" out="00:00:20.367">
+    <property name="length">00:00:20.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 003.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T08:13:42</property>
+    <property name="shotcut:hash">4726c47803c8ec8122596c34ca1f68aa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 003.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter124" out="00:00:20.367">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer104" in="00:00:00.000" out="00:01:39.900">
+    <property name="length">00:01:39.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 004.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T08:31:00</property>
+    <property name="shotcut:hash">55c8490ac278e05e55ca81fb8a2901a4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 004.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter125" out="00:01:39.900">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer105" in="00:00:00.000" out="00:00:09.533">
+    <property name="length">00:00:09.567</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 005.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T08:55:53</property>
+    <property name="shotcut:hash">3ebfaf2c4cd6f8c78b08e527a2f539d2</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 005.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter126" out="00:00:09.533">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer106" in="00:00:00.000" out="00:00:24.733">
+    <property name="length">00:00:24.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 006.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T08:57:17</property>
+    <property name="shotcut:hash">8861ba2083b640c2a34b0882c0501fca</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 006.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter127" out="00:00:24.733">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer107" in="00:00:00.000" out="00:00:15.233">
+    <property name="length">00:00:15.267</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 007.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T09:40:41</property>
+    <property name="shotcut:hash">a43d9fce5a128aa0702509db5d10a8f1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 007.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter128" out="00:00:15.233">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer108" in="00:00:00.000" out="00:00:38.767">
+    <property name="length">00:00:38.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 008.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T11:10:52</property>
+    <property name="shotcut:hash">e68cdcc811e45d6a612ced2e70afe262</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 008.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter129" out="00:00:38.767">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer109" in="00:00:00.000" out="00:00:32.467">
+    <property name="length">00:00:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 009.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T11:12:40</property>
+    <property name="shotcut:hash">78f2d9c8a60bc5d8adfbce641527ae3a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 009.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter130" out="00:00:32.467">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer110" in="00:00:00.000" out="00:01:14.867">
+    <property name="length">00:01:14.900</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 011.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T11:16:27</property>
+    <property name="shotcut:hash">3bd0be9dfe59178aab5d1c5a3c105962</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 011.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter131" out="00:01:14.867">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer111" in="00:00:00.000" out="00:00:18.700">
+    <property name="length">00:00:18.733</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 012.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T11:17:10</property>
+    <property name="shotcut:hash">054dd8565ef2a0f5f27d675a0696524a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 012.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter132" out="00:00:18.700">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <producer id="producer112" in="00:00:00.000" out="00:00:12.900">
+    <property name="length">00:00:12.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">audios paul/Voz 013.m4a</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-08-11T11:30:14</property>
+    <property name="shotcut:hash">0ffbf125c6988a8df5f709e302c872f2</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Voz 013.m4a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter133" out="00:00:12.900">
+      <property name="channel">-1</property>
+      <property name="split">0</property>
+      <property name="mlt_service">panner</property>
+      <property name="shotcut:filter">audioBalance</property>
+      <property name="start">0.5</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:00:06.000"/>
+    <entry producer="producer94" in="00:00:00.000" out="00:00:21.600"/>
+    <entry producer="producer95" in="00:00:00.000" out="00:00:44.233"/>
+    <entry producer="producer96" in="00:00:00.000" out="00:01:01.767"/>
+    <entry producer="producer97" in="00:00:00.000" out="00:00:59.000"/>
+    <entry producer="producer98" in="00:00:00.000" out="00:00:29.067"/>
+    <entry producer="producer99" in="00:00:00.000" out="00:01:19.967"/>
+    <entry producer="producer100" in="00:00:00.000" out="00:01:11.900"/>
+    <entry producer="producer101" in="00:00:00.000" out="00:00:20.800"/>
+    <entry producer="producer102" in="00:00:00.000" out="00:00:35.633"/>
+    <entry producer="producer103" in="00:00:00.000" out="00:00:20.367"/>
+    <entry producer="producer104" in="00:00:00.000" out="00:01:39.900"/>
+    <entry producer="producer105" in="00:00:00.000" out="00:00:09.533"/>
+    <blank length="00:00:11.567"/>
+    <entry producer="producer106" in="00:00:00.000" out="00:00:24.733"/>
+    <blank length="00:00:11.767"/>
+    <entry producer="producer107" in="00:00:00.000" out="00:00:15.233"/>
+    <blank length="00:00:04.633"/>
+    <entry producer="producer108" in="00:00:00.000" out="00:00:38.767"/>
+    <blank length="00:00:02.100"/>
+    <entry producer="producer109" in="00:00:00.000" out="00:00:32.467"/>
+    <entry producer="producer110" in="00:00:00.000" out="00:01:14.867"/>
+    <blank length="00:00:05.767"/>
+    <entry producer="producer111" in="00:00:00.000" out="00:00:18.700"/>
+    <entry producer="producer112" in="00:00:00.000" out="00:00:12.900"/>
+  </playlist>
+  <producer id="producer113" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Logo informatica.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-09T00:33:00</property>
+    <property name="shotcut:caption">Logo informatica.png</property>
+    <property name="shotcut:hash">7b9da6e905a14691ae71ea6860781282</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter134" out="00:03:33.633">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1125 0 151 151 1</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter135" out="00:03:33.633">
+      <property name="argument">Voz: Hadickson Paul Mairena Ordoñez
+Estudiante Informática Administrativa - UNAH</property>
+      <property name="geometry">24 409 311 220 1</property>
+      <property name="family">Century Gothic</property>
+      <property name="size">533</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">5</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">400</property>
+    </filter>
+  </producer>
+  <producer id="producer114" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Logo informatica.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-08-09T00:33:00</property>
+    <property name="shotcut:caption">Logo informatica.png</property>
+    <property name="shotcut:hash">7b9da6e905a14691ae71ea6860781282</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter136" out="00:02:53.933">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1125 0 151 151 1</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter137" out="00:02:53.933">
+      <property name="argument">Voz: Hadickson Paul Mairena Ordoñez
+Estudiante Informática Administrativa - UNAH</property>
+      <property name="geometry">942 389 311 220 1</property>
+      <property name="family">Century Gothic</property>
+      <property name="size">533</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">5</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">400</property>
+    </filter>
+  </producer>
+  <playlist id="playlist4">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:06:34.600"/>
+    <entry producer="producer113" in="00:00:00.000" out="00:03:33.633"/>
+    <entry producer="producer114" in="00:00:00.000" out="00:02:53.933"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 20.07.11" global_feed="1" in="00:00:00.000" out="00:13:51.867">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.0248439</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="video"/>
+    <track producer="playlist4"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
